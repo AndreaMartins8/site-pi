@@ -1,2 +1,4 @@
-$("#slider").nivoSlider();
+$("#slider").nivoSlider({
+    controlNav: false,
+});
 
