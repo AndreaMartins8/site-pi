@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'montserrat';
+    margin: 0;
+    padding: 0;
+    background-color: #ffca1d;
+}
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+.logo-cabecalho{
+    width: 80px;
+}
+
+.menu-navegacao a{
+    color: #ff00ea;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'bebas neue';
+    padding: 10px;
+}
+
+.menu-navegacao{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.imagem-banner{
+    width: 250px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.banner{
+    text-align: center;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.titulo-banner{
+    color: #ffca1d;
+    font-family: 'Sedgwick ave display';
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-shadow: 1px 3px black;
+
+}
+
+.quem-somos{
+    background-color: #ffca1d;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-family: 'wellfleet';
+    font-size: 2px;
+}
+
+.titulo{
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+}
+
+.botao-rosa{
+    background-color: #ff00ea;
+    padding:10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.arte-artistas{
+    background-color: black;
+    color: white;
+}
