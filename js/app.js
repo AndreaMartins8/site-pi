@@ -1,4 +1,3 @@
 $("#slider").nivoSlider({
     controlNav: false,
 });
-
