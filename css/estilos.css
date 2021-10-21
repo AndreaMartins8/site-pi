@@ -83,6 +83,13 @@ body{
     font-family: 'Bebas Neue';
     font-size: 70px;
     text-align: center;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.titulo1{
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    text-align: center;
 }
 
 .botao-rosa{
@@ -151,5 +158,33 @@ body{
 .email, .mensagem{
    font-family: 'wellfleet';
    font-size: 24px;
+   height: 30px;
+   color: black;
 }
 
+#email{
+    padding: 10px;
+}
+
+#mensagem{
+    padding: 20px;
+}
+
+.redes-sociais{
+   background-color: #ff00ea;
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.rodape{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
