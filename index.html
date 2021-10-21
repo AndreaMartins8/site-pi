@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagens/icone.png" type="image/png">
     <title>COLA LÁ</title>
-    
+
     <link rel="stylesheet" href="lib/Nivo-Slider/themes/default/default.css">
     <link rel="stylesheet" href="lib/Nivo-Slider/nivo-slider.css">
 
@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body onload="CarregarArtes()">
     <header class="cabecalho">
         <img src="imagens/logo.jpg" class="logo cabecalho" alt="cola lá">
         <nav>
@@ -27,28 +27,58 @@
         </nav>
     </header>
 
-        <div id="slider" class="nivoSlider theme-default">
-            <img src="imagens/banner1.png">
-            <img src="imagens/banner2.png">
-            <img src="imagens/banner3.png">
-            <img src="imagens/banner5.png">
-        </div>
+    <div id="slider" class="nivoSlider theme-default">
+        <img src="imagens/banner1.png">
+        <img src="imagens/banner2.png">
+        <img src="imagens/banner3.png">
+        <img src="imagens/banner5.png">
+    </div>
 
-        <div class="quem-somos">
-            <h1 class="titulo">Quem Somos :<br>O projeto</h1>
-            <p>Somos alunas do Tec. em Comunicação Visual e Tec. em Multimídia da instituição de ensino SENAC Americana.
-                Desenvolvemos esse projeto com o intuito de promover e dar reconhecimento para artistas locais, mais especificamente na cidade de Americana e Região, oferecendo espaço para que possam divulgar e expandir seus trabalhos de artes visuais e gráficos de forma online e gratuita.</p>
-        </div>
-        
-        <div class="arte-artistas">
-            <h1 class="titulo">Artes e Artistas</h1>
-            <p>Conheça os artistas.</p>
-            <a href="#" class="botao-rosa">Saiba +</a>
-        </div>
+    <div class="quem-somos">
+        <h1 class="titulo">Quem Somos :<br>O projeto</h1>
+        <p>Somos alunas do Tec. em Comunicação Visual e Tec. em Multimídia da instituição de ensino SENAC Americana.
+            Desenvolvemos esse projeto com o intuito de promover e dar reconhecimento para artistas locais, mais
+            especificamente na cidade de Americana e Região, oferecendo espaço para que possam divulgar e expandir seus
+            trabalhos de artes visuais e gráficos de forma online e gratuita.</p>
+    </div>
 
-<script src="js/jquery.js"></script>
-<script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
-<script src="js/app.js"></script>
+    <div class="arte-artistas">
+        <h1 class="titulo">Artes e Artistas</h1>
+        <div class="colunas-artistas">
+            <div class="lista-artes">
+            </div>
+            <div class="texto-foto">
+                <p>Conheça as artes e os artistas:</p>
+                <a href="#" class="botao-rosa">Saiba +</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="como-participar">
+        <h1 class="titulo">Como Participar</h1>
+        Inscrições<br>
+        Regulamento<br>
+        Certificado<br>
+    </div>
+    </div>
+
+    <div class="contato-duvida">
+        <h1 class="titulo">Tem alguma dúvida?<br>Entre em contato</h1>
+        <p>
+        <div class="email"><label for="email" class="email">Email</label><br></div>
+        <input id="email" type="email" name="email">
+        </p>
+        <p>
+        <div class="mensagem"><label for="mensagem" class="mensagem">Mensagem </label><br></div>
+        <textarea id="mensagem"></textarea>
+        </p>
+        <button type="submit" class="botao-rosa">Enviar</button>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

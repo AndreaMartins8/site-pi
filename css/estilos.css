@@ -82,6 +82,7 @@ body{
 .titulo{
     font-family: 'Bebas Neue';
     font-size: 70px;
+    text-align: center;
 }
 
 .botao-rosa{
@@ -90,11 +91,65 @@ body{
     color: black;
     text-decoration: none;
     border-radius: 10px;
+    font-family: 'bebas neue';
+    font-size: 24px;
 }
 
 .arte-artistas{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
     background-color: black;
     color: white;
-    padding: 20px 20px 20px 20px;
-    
 }
+
+.arte-artistas img{
+        height: 250px;
+        width: 180px;
+        object-fit: cover;
+        margin: 5px;
+}
+
+.texto-foto{
+    margin-left: 40px;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+}
+
+.colunas-artistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.como-participar{
+    background-color: #ff00ea;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Wellfleet';
+    font-size: 45px;
+}
+
+.contato-duvida{
+    background-image: url(../imagens/fundo-contato.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.email, .mensagem{
+   font-family: 'wellfleet';
+   font-size: 24px;
+}
+
