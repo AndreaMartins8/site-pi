@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&family=Zen+Kaku+Gothic+Antique:wght@300;400&family=Zen+Kurenaido&display=swap');
 
 *{
     box-sizing:border-box;
@@ -75,8 +76,8 @@ body{
     padding-bottom: 50px;
     padding-right: 80px;
     padding-left: 80px;
-    font-family: 'wellfleet';
-    font-size: 24px;
+    font-family: 'Architects Daughter';
+    font-size: 30px;
 }
 
 .titulo{
@@ -138,13 +139,13 @@ body{
     padding-left: 80px;
     text-align: center;
     color: white;
-    font-family: 'Wellfleet';
+    font-family: 'Architects Daughter';
     font-size: 45px;
 }
 
 .contato-duvida{
     background-image: url(../imagens/fundo-contato.png);
-    background-position: center;
+    background-position: top;
     background-repeat: repeat;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -156,19 +157,21 @@ body{
 }
 
 .email, .mensagem{
-   font-family: 'wellfleet';
+   font-family: 'Architects Daughter';
    font-size: 24px;
    height: 30px;
-   color: black;
+   color: white;
    padding-bottom: 2px;
    padding-top: 2px;
 }
 
 #email{
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 #mensagem{
+    margin-top: 5px;
     padding: 20px;
 }
 
@@ -196,4 +199,111 @@ body{
     color: #ff00ea;
     font-family: 'bebas neue';
     font-size: 18px;
+}
+
+/*css página inscrição*/
+
+.dados-inscricao{
+    background-color: #ff00ea;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Architects Daughter';
+    font-size: 34px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.botao-amarelo{
+    background-color: #ffca1d;
+    padding: 3px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'bebas neue';
+    font-size: 24px;
+}
+
+#nome, #email1, #telefone, #instagram{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#mensagem1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+/*css página regulamento*/
+
+.regulamento{
+    background-color: #ffca1d;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Architects Daughter';
+    font-size: 34px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;  
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.fundo-rosa{
+    background-color: #ff00ea;
+}
+
+/*css página certificado*/
+
+.botao{
+    background-color: #ffca1d;
+    padding: 15px 50px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'bebas neue';
+    font-size: 24px;
+}
+
+.botao:hover{
+    background-color: #ff00ea;
+    border-color: #ff00ea;
+}
+
+.fundo-preto{
+    background-color: black;
+}
+
+.certificado{
+    background-color: #ff00ea;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;  
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.botao-caixa{
+    justify-content: center;
+    padding-bottom: 100px;
+    display: grid;
 }
