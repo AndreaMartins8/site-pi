@@ -13,3 +13,4 @@ function CarregarArtes(){
     divListaArtes.innerHTML += "<img src=" + artes[i] +">"
 }
 }
+

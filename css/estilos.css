@@ -77,7 +77,7 @@ body{
     padding-right: 80px;
     padding-left: 80px;
     font-family: 'Architects Daughter';
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .titulo{
@@ -85,12 +85,14 @@ body{
     font-size: 70px;
     text-align: center;
     -webkit-text-stroke: 0.1px black;
+    padding-bottom: 20px;
 }
 
 .titulo1{
     font-family: 'Bebas Neue';
     font-size: 70px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .botao-rosa{
@@ -140,7 +142,8 @@ body{
     text-align: center;
     color: white;
     font-family: 'Architects Daughter';
-    font-size: 45px;
+    font-size: 35px;
+    line-height: 60px;
 }
 
 .contato-duvida{
@@ -158,11 +161,11 @@ body{
 
 .email, .mensagem{
    font-family: 'Architects Daughter';
-   font-size: 24px;
+   font-size: 25px;
    height: 30px;
    color: white;
-   padding-bottom: 2px;
-   padding-top: 2px;
+   padding-bottom: 1px;
+   padding-top: 1px;
 }
 
 #email{
@@ -307,3 +310,4 @@ body{
     padding-bottom: 100px;
     display: grid;
 }
+
