@@ -95,6 +95,10 @@ body{
     padding-bottom: 20px;
 }
 
+.como-participar a:hover {
+    color: #ffca1d;
+}
+
 .botao-rosa{
     background-color: #ff00ea;
     padding: 3px 20px;
