@@ -14,3 +14,16 @@ function CarregarArtes(){
 }
 }
 
+
+$("#bt-quemsomos").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#quem-somos").offset().top
+    }, 1400);
+});
+
+$("#bt-contato").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contato-duvida").offset().top
+    }, 1400);
+});
+
