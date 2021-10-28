@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/icone.png" type="image/png">
+    <title>COLA LÁ</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body onload="CarregarArtes()">
+    <header class="cabecalho">
+        <a href="index.html"><img src="imagens/logo.jpg" class="logo cabecalho" alt="cola lá"></a>
+        <nav>
+            <ul class="menu-navegacao">
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Dúvidas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo titulo-galeria">GALERIA</h1>
+
+    <div class="fotorama" data-keyboard="true" data-autoplay="true" data-allowfullscreen="true" data-nav="thumbs"
+        data-loop="true" data-arrows="true" data-click="true" data-swipe="true">
+        <img src="imagens/galeria1.png" data-caption="Desenvolvido por Andréa Martins">
+        <img src="imagens/galeria2.png" data-caption="Desenvolvido por Andréa Martins">
+        <img src="imagens/galeria3.png" data-caption="Desenvolvido por Andréa Martins">
+        <img src="imagens/galeria4.jpg" data-caption="Desenvolvido por Gabriele Teixeira">
+        <img src="imagens/galeria5.jpg" data-caption="Desenvolvido por Ana Pimenta">        
+    </div>    
+
+    <div class="redes-sociais">
+        <h1 class="titulo1">Instagram</h1>
+        <a href="https://www.instagram.com/projeto_colala/" target="blank"><img src="imagens/logo-insta.png"
+                class="insta" alt="cola lá"></a>
+    </div>
+    <div class="rodape">
+        <a href="index.html"><img src="imagens/logo.jpg" class="logo rodape" alt="cola lá"></a>
+        <p>Site criado por: Andréa Martins e Gabriele Teixeira.</p>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="fotorama/fotorama.css"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
