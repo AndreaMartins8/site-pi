@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&family=Zen+Kaku+Gothic+Antique:wght@300;400&family=Zen+Kurenaido&display=swap');
 
 *{
@@ -315,6 +314,7 @@ body{
     display: grid;
 }
 
+/*css da galeria */
 .fotorama {
     text-align: -webkit-center;
     display: block;
@@ -335,3 +335,67 @@ body{
     background-color: #ff00ea;
 }
 
+/* css página integrantes*/
+.quadro1, .quadro3{
+    background-color: black;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.quadro1 img, .quadro3 img{
+    width: 210px;
+    padding-right: 10px;
+    height: 270px;
+}
+
+.nome{
+    background-color: black;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    text-align: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    columns: 2;
+    column-gap: 100px;
+}
+
+.quadro2{
+    background-color: #ffca1d;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.quadro2 img{
+    width: 210px;
+    padding-right: 10px;
+}
+
+.nome2{
+    background-color: #ffca1d;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    text-align: center;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    columns: 2;
+    column-gap: 100px;
+}
+
+.titulo3{
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: black;
+}

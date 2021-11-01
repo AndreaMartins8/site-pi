@@ -27,7 +27,7 @@
             <ul class="menu-navegacao">
                 <li><a href="integrantes.html">Quem Somos</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="index.html">Contato</a></li>
+                <li><a href="#" id="bt-contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -43,6 +43,20 @@
         <img src="imagens/galeria5.jpg" data-caption="Desenvolvido por Ana Pimenta">        
     </div>    
 
+    <div class="contato-duvida" id="contato-duvida">
+        <h1 class="titulo">Tem alguma dúvida?<br>Entre em contato</h1>
+        <p>
+        <div class="email"><label for="email" class="email">Email:</label><br></div>
+        <input id="email" type="email" name="email">
+        </p>
+        <p>
+        <div class="mensagem"><label for="mensagem" class="mensagem">Mensagem:</label><br></div>
+        <textarea id="mensagem"></textarea>
+        </p>
+        <br>
+        <br>
+        <button type="submit" class="botao-rosa">Enviar</button>
+    </div>
     <div class="redes-sociais">
         <h1 class="titulo1">Instagram</h1>
         <a href="https://www.instagram.com/projeto_colala/" target="blank"><img src="imagens/logo-insta.png"
@@ -55,6 +69,7 @@
 
 
     <script src="js/jquery.js"></script>
+    <script src="lib/Nivo-Slider/jquery.nivo.slider.js"></script>
     <script src="fotorama/fotorama.css"></script>
     <script src="js/app.js"></script>
 </body>
