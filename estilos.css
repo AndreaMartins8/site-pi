@@ -345,7 +345,7 @@ body{
     padding-left: 80px;
 }
 
-.quadro1 img, .quadro3 img{
+.quadro1 img, .quadro2 img, .quadro3 img{
     width: 210px;
     padding-right: 10px;
     height: 270px;
@@ -371,12 +371,6 @@ body{
     padding-bottom: 30px;
     padding-right: 80px;
     padding-left: 80px;
-}
-
-.quadro2 img{
-    width: 210px;
-    padding-right: 10px;
-    height: 270px;
 }
 
 .nome2{
