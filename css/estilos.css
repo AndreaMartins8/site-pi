@@ -1,401 +1,427 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&family=Zen+Kaku+Gothic+Antique:wght@300;400&family=Zen+Kurenaido&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&family=Zen+Kaku+Gothic+Antique:wght@300;400&family=Zen+Kurenaido&display=swap");
 
-*{
-    box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'montserrat';
-    margin: 0;
-    padding: 0;
-    background-color: #ffca1d;
+body {
+  font-family: "montserrat";
+  margin: 0;
+  padding: 0;
+  background-color: #ffca1d;
 }
 
-.cabecalho{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-
-.logo-cabecalho{
-    width: 80px;
+.cabecalho {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.menu-navegacao a{
-    color: #ff00ea;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: 'bebas neue';
-    padding: 10px;
+.logo-cabecalho {
+  width: 80px;
 }
 
-.menu-navegacao{
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
+.menu-navegacao a {
+  color: #ff00ea;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "bebas neue";
+  padding: 10px;
 }
 
-.imagem-banner{
-    width: 250px;
-    height: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
-    object-fit: cover;
+.menu-navegacao {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
-.banner{
-    text-align: center;
-    background-image: url(../imagens/fundo.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+.menu-navegacao a:hover {
+  color: #fff;
 }
 
-.titulo-banner{
-    color: #ffca1d;
-    font-family: 'Sedgwick ave display';
-    font-size: 50px;
-    letter-spacing: 3px;
-    text-shadow: 1px 3px black;
-
+.imagem-banner {
+  width: 250px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  object-fit: cover;
 }
 
-.quem-somos{
-    background-color: #ffca1d;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
-    padding-left: 80px;
-    font-family: 'Architects Daughter';
-    font-size: 25px;
+.banner {
+  text-align: center;
+  background-image: url(../imagens/fundo.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
-.titulo{
-    font-family: 'Bebas Neue';
-    font-size: 70px;
-    text-align: center;
-    -webkit-text-stroke: 0.1px black;
-    padding-bottom: 20px;
+.titulo-banner {
+  color: #ffca1d;
+  font-family: "Sedgwick ave display";
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-shadow: 1px 3px black;
 }
 
-.titulo1{
-    font-family: 'Bebas Neue';
-    font-size: 70px;
-    text-align: center;
-    padding-bottom: 20px;
+.quem-somos {
+  background-color: #ffca1d;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  font-family: "Architects Daughter";
+  font-size: 25px;
+}
+
+.titulo {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-align: center;
+  -webkit-text-stroke: 0.1px black;
+  padding-bottom: 20px;
+}
+
+.titulo1 {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .como-participar a:hover {
-    color: #ffca1d;
+  color: #ffca1d;
 }
 
-.botao-rosa{
-    background-color: #ff00ea;
-    padding: 3px 20px;
-    color: black;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: 'bebas neue';
-    font-size: 24px;
+.botao-rosa {
+  background-color: #ff00ea;
+  padding: 3px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "bebas neue";
+  font-size: 24px;
 }
 
-.arte-artistas{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
-    padding-left: 80px;
-    background-color: black;
-    color: white;
+.botao-rosa:hover {
+  background: linear-gradient(
+    rgba(225, 225, 225, 0.2),
+    rgba(225, 225, 225, 0.2)
+  );
 }
 
-.arte-artistas img{
-        height: 250px;
-        width: 180px;
-        object-fit: cover;
-        margin: 5px;
+.arte-artistas {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: black;
+  color: white;
 }
 
-.texto-foto{
-    margin-left: 40px;
-    font-family: 'Bebas Neue';
-    font-size: 35px;
+.arte-artistas img {
+  height: 250px;
+  width: 180px;
+  object-fit: cover;
+  margin: 5px;
 }
 
-.colunas-artistas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.texto-foto {
+  margin-left: 40px;
+  font-family: "Bebas Neue";
+  font-size: 35px;
 }
 
-.como-participar{
-    background-color: #ff00ea;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
-    padding-left: 80px;
-    text-align: center;
-    color: white;
-    font-family: 'Architects Daughter';
-    font-size: 35px;
-    line-height: 60px;
+.colunas-artistas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contato-duvida{
-    background-image: url(../imagens/fundo-contato.png);
-    background-position: top;
-    background-repeat: repeat;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
-    padding-left: 80px;
-    color: white;
-    display: grid;
-    justify-content: center;
+.como-participar {
+  background-color: #ff00ea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+  color: white;
+  font-family: "Architects Daughter";
+  font-size: 35px;
+  line-height: 60px;
 }
 
-.email, .mensagem{
-   font-family: 'Architects Daughter';
-   font-size: 25px;
-   height: 30px;
-   color: white;
-   padding-bottom: 1px;
-   padding-top: 1px;
+.contato-duvida {
+  background-image: url(../imagens/fundo-contato.png);
+  background-position: top;
+  background-repeat: repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  color: white;
+  display: grid;
+  justify-content: center;
 }
 
-#email{
-    padding: 10px;
-    margin-bottom: 5px;
+.email,
+.mensagem {
+  font-family: "Architects Daughter";
+  font-size: 25px;
+  height: 30px;
+  color: white;
+  padding-bottom: 1px;
+  padding-top: 1px;
 }
 
-#mensagem{
-    margin-top: 5px;
-    padding: 20px;
+#email {
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
-.redes-sociais{
-   background-color: #ff00ea;
-   color: white;
-   text-align: center;
-   padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 80px;
-    padding-left: 80px;
+#mensagem {
+  margin-top: 5px;
+  padding: 20px;
 }
 
-.redes-sociais img{
-    width: 50px;
+.redes-sociais {
+  background-color: #ff00ea;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
-.rodape{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #ff00ea;
-    font-family: 'bebas neue';
-    font-size: 18px;
+.redes-sociais img {
+  width: 50px;
+}
+
+.rodape {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ff00ea;
+  font-family: "bebas neue";
+  font-size: 18px;
 }
 
 /*css página inscrição*/
 
-.dados-inscricao{
-    background-color: #ff00ea;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Architects Daughter';
-    font-size: 34px;
-    color: white;
-    display: grid;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.dados-inscricao {
+  background-color: #ff00ea;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: "Architects Daughter";
+  font-size: 34px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.botao-amarelo{
-    background-color: #ffca1d;
-    padding: 3px 20px;
-    color: black;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: 'bebas neue';
-    font-size: 24px;
+.botao-amarelo {
+  background-color: #ffca1d;
+  padding: 3px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "bebas neue";
+  font-size: 24px;
 }
 
-#nome, #email1, #telefone, #instagram{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-    padding-left: 300px;
-    padding-right: 300px;
+#nome,
+#email1,
+#telefone,
+#instagram {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
-#mensagem1{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 25px;
+#mensagem1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 25px;
 }
 
 /*css página regulamento*/
 
-.regulamento{
-    background-color: #ffca1d;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    font-family: 'Architects Daughter';
-    font-size: 34px;
-    color: white;
-    display: grid;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;  
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: justify;
+.regulamento {
+  background-color: #ffca1d;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: "Architects Daughter";
+  font-size: 34px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
 }
 
-.fundo-rosa{
-    background-color: #ff00ea;
+.fundo-rosa {
+  background-color: #ff00ea;
 }
 
 /*css página certificado*/
 
-.botao{
-    background-color: #ffca1d;
-    padding: 15px 50px;
-    color: black;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: 'bebas neue';
-    font-size: 24px;
+.botao {
+  background-color: #ffca1d;
+  padding: 15px 50px;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "bebas neue";
+  font-size: 24px;
 }
 
-.botao:hover{
-    background-color: #ff00ea;
-    border-color: #ff00ea;
+.botao:hover {
+  background-color: #ff00ea;
+  border-color: #ff00ea;
 }
 
-.fundo-preto{
-    background-color: black;
+.fundo-preto {
+  background-color: black;
 }
 
-.certificado{
-    background-color: #ff00ea;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 150px;
-    display: grid;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;  
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: justify;
+.certificado {
+  background-color: #ff00ea;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  display: grid;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
 }
 
-.botao-caixa{
-    justify-content: center;
-    padding-bottom: 100px;
-    display: grid;
+.botao-caixa {
+  justify-content: center;
+  padding-bottom: 100px;
+  display: grid;
 }
 
 /*css da galeria */
 .fotorama {
-    text-align: -webkit-center;
-    display: block;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  text-align: -webkit-center;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .titulo-galeria {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .fotorama__caption__wrap {
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-    color: #fff;
-    background-color: #ff00ea;
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  color: #fff;
+  background-color: #ff00ea;
 }
 
 /* css página integrantes*/
-.quadro1, .quadro3{
-    background-color: black;
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 80px;
-    padding-left: 80px;
+.quadro1,
+.quadro3 {
+  background-color: black;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
-.quadro1 img, .quadro3 img{
-    width: 210px;
-    padding-right: 10px;
-    height: 270px;
+.quadro1 img,
+.quadro3 img {
+  width: 210px;
+  padding-right: 10px;
+  height: 270px;
 }
 
-.nome1{
-    background-color: black;
-    font-family: 'Bebas Neue';
-    font-size: 40px;
-    text-align: center;
-    padding-right: 90px;
-    padding-left: 90px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    columns: 2;
-    column-gap: 100px;
+.nome1 {
+  background-color: black;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  text-align: center;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  columns: 2;
+  column-gap: 100px;
 }
 
-.quadro2{
-    background-color: #ffca1d;
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 80px;
-    padding-left: 80px;
+.quadro2 {
+  background-color: #ffca1d;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
-.quadro2 img{
-    width: 210px;
-    padding-right: 10px;
+.quadro2 img {
+  width: 210px;
+  padding-right: 10px;
+  height: 270px;
 }
 
-.nome2{
-    background-color: #ffca1d;
-    font-family: 'Bebas Neue';
-    font-size: 40px;
-    text-align: center;
-    padding-right: 90px;
-    padding-left: 90px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    columns: 2;
-    column-gap: 100px;
+.nome2 {
+  background-color: #ffca1d;
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  text-align: center;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  columns: 2;
+  column-gap: 100px;
 }
 
-.titulo3{
-    font-family: 'Bebas Neue';
-    font-size: 70px;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    color: black;
+.titulo3 {
+  font-family: "Bebas Neue";
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: black;
+}
+
+.quadro2 a:hover {
+  color: #000;
+}
+
+.quadro1 a:hover,
+.quadro3 a:hover {
+  color: #ffca1d;
 }
