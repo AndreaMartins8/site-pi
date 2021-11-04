@@ -27,3 +27,13 @@ $("#bt-contato").click(function() {
     }, 1400);
 });
 
+function Enviar(){
+    $("#email").val("")
+    $("#mensagem").val("")
+    $("#nome").val("")
+    $("#email1").val("")
+    $("#telefone").val("")
+    $("#instagram").val("")
+    $("#mensagem1").val("")
+    alert("Mensagem enviada com sucesso")
+}
